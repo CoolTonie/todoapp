@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.task{
+    text-align: center;
+    background-color: rgb(26, 24, 24);
+    height: 100vh;
+    color: antiquewhite;
+    font-family: 'Poppins';
+}
+
+.content{
+    /* display: grid; */
+    /* place-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: left;
+    margin:auto;
+    width: 40%;
+
+}
+
+input{
+    padding: 1em;
+}
+
+
+
+.task-info{
+    /* padding: 4em; */
+    height: 20vh;
+}
+
+.dates{
+   margin-top: 2em;
+   display: flex;
+   gap: 6em;
+   justify-content: center;
+}
+.dating{
+    padding: 0.6em;
+    margin-top: 1em;
+    
+
+}
